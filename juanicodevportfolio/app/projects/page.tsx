@@ -40,7 +40,7 @@ export default function ProjectsPage() {
                             title="IVE Paper Tracker"
                             description="Research dashboard for publication retrieval using APIs and web scraping with performance optimisations."
                             src="/project-2/update-database.png"
-                            href="/projects/ive-paper-tracker"
+                            href="/projects/paper-collation-tool"
                             ctaText="View case study"
                             badgeText="University project"
                             isPrivate
@@ -52,11 +52,11 @@ export default function ProjectsPage() {
                         <ProjectCard
                             title="Your Moment Adelaide"
                             description="Full-stack platform for enquiries and booking workflows for a real service business."
-                            src="/projects/your-moment.jpg"
+                            src="/project-3/main.png"
                             href="/projects/your-moment-adelaide"
                             ctaText="View case study"
                             badgeText="Founder • Full-stack"
-                            isPrivate
+                            isPrivate={false}
                             tags={["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Vercel"]}
                         />
                     </div>

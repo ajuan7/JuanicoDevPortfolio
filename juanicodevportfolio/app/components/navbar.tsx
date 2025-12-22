@@ -17,17 +17,17 @@ export default function Navbar() {
 
   return (
     <div>
-      <nav className="block w-full max-w-screen px-4 mx-auto bg-black bg-opacity-90 sticky top-3 shadow lg:px-8 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
+      <nav className="block w-full max-w-screen px-4 py-2 mx-auto bg-[rgb(22,22,22)] bg-opacity-90 sticky top-3 shadow lg:px-8 backdrop-blur-lg backdrop-saturate-150 z-[9999]">
         <div className="container flex flex-wrap items-center justify-between mx-auto text-slate-800">
           <Link
             href="/"
             className="mr-4 block cursor-pointer py-0 text-white font-bold text-2xl"
           >
             <Image 
-                src="/logos/JUANICO.png" 
+                src="/logos/JUANICO-Transparent.png" 
                 alt="Logo Image"
-                width={80}
-                height={80}
+                width={40}
+                height={40}
             />
           </Link>
 

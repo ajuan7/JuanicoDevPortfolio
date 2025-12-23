@@ -4,7 +4,7 @@ export default function AHSRouteOptimiserPage() {
   return (
     <ProjectPage
       title="AHS Route Optimiser"
-      summary="A concept-to-build project focused on reducing manual scheduling and improving daily route efficiency by centralising job data, generating practical run sheets, and enabling calendar-ready exports."
+      summary="A full-stack scheduling and route optimisation tool that centralises client and job data, balances weekly rosters, clusters jobs geographically, and integrates third-party routing and mapping APIs to generate optimised daily routes and calendar exports."
       tags={["Next.js", "TypeScript", "PostgreSQL", "Prisma", "RouteXL API", "Leaflet Map API"]}
       repoNote="Private repo (confidentiality)"
       sections={[

@@ -5,7 +5,7 @@ export default function PaperCollationToolPage() {
         <ProjectCard
             title="Paper Collation Tool"
             subtitle="Case Study"
-            summary="Uni Project"
+            summary="A university research analytics platform designed to aggregate, standardise, and visualise academic publication data across multiple sources. The system collates outputs from external APIs and structured imports, models author and group relationships, and provides interactive dashboards to analyse research productivity and collaboration patterns."
             tags={["React", "Node.js", "Prisma", "PostgreSQL", "Serp API", "Elsevier API", "Orcid API" ]}
             repoNote="Private repo (confidentiality)"
             sections={[

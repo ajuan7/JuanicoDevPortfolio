@@ -48,52 +48,6 @@ export default function Home() {
         </div>
       </main>
 
-      {/* Footer links */}
-      <footer className="mt-auto flex flex-wrap items-center justify-center gap-6">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://instagram.com/juanicodevsolutions"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            src="/icons/instagram-icon.svg"
-            alt="Instagram icon"
-            width={32}
-            height={32}
-            className="dark:invert"
-          />
-          Instagram
-        </a>
-
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="/projects"
-        >
-          <Image
-            src="/icons/project-icon.svg"
-            alt="Projects icon"
-            width={32}
-            height={32}
-            className="dark:invert"
-          />
-          View Projects
-        </a>
-
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="/contact"
-        >
-          <Image
-            src="/icons/email-icon.svg"
-            alt="Contact icon"
-            width={32}
-            height={32}
-            className="dark:invert"
-          />
-          Contact →
-        </a>
-      </footer>
     </div>
   );
 }

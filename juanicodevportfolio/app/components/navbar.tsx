@@ -105,8 +105,7 @@ export default function Navbar() {
               {navItems.map((item, index) => (
                 <li
                   key={index}
-                  className="flex items-center p-1 text-lg gap-x-2 text-zinc-400 hover:text-red-500"
-                >
+                  className="text-sm font-medium tracking-wide text-white/90 hover:text-white transition"                >
                   <Link href={item.href} className="flex items-center">
                     {item.name}
                   </Link>

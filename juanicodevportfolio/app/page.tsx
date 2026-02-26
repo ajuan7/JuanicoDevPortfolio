@@ -1,53 +1,19 @@
-import Image from "next/image";
+import Hero from "@/app/components/main/MainHero";
+import ValueGrid from "@/app/components/main/ValueGrid";
+import AboutNow from "@/app/components/main/AboutNow";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between gap-16 bg-[rgb(14,14,14)] p-8 pb-20 font-sans sm:p-16">
-      <main className="flex flex-grow flex-col items-center justify-center gap-8">
+    <div className="min-h-screen bg-[rgb(14,14,14)] px-6 py-10 font-sans sm:px-12 sm:py-16">
+      <main className="mx-auto w-full max-w-5xl">
+        <Hero />
+        <ValueGrid />
+        <AboutNow />
 
-        <Image
-          src="/logos/JUANICO-2.png"
-          alt="Juanico DevSolutions Logo"
-          width={180}
-          height={38}
-          priority
-        />
-
-        <header className="text-center">
-          <h1 className="text-4xl font-bold text-foreground">
-            JUANICO <span className="text-blue-600">DevSolutions</span>
-          </h1>
-          <p className="text-sm text-gray-500">Your Vision, Our Code.</p>
-        </header>
-
-        <section className="px-8 text-center text-sm sm:px-40 sm:text-left">
-          <h2 className="mb-2 text-xl font-semibold">About Us</h2>
-          <p className="text-gray-700">
-            Juanico DevSolutions is my personal portfolio where I showcase software
-            development work across full-stack web apps, API integrations, and scalable
-            systems. My focus is building secure, efficient solutions and continuously
-            improving through real projects.
-          </p>
-        </section>
-
-        {/* CTA buttons */}
-        <div className="flex flex-col items-center gap-4 sm:flex-row">
-          <a
-            className="flex h-10 items-center justify-center gap-2 rounded-full border border-solid border-transparent bg-blue-600 px-4 text-sm text-white transition-colors hover:bg-blue-700 sm:h-12 sm:px-5 sm:text-base"
-            href="/projects"
-          >
-            Projects
-          </a>
-
-          <a
-            className="flex h-10 items-center justify-center rounded-full border border-solid border-black/[.08] px-4 text-sm transition-colors hover:border-transparent hover:bg-[#f2f2f2] sm:h-12 sm:px-5 sm:text-base dark:border-white/[.145] dark:hover:bg-[#1a1a1a]"
-            href="/contact"
-          >
-            Contact
-          </a>
-        </div>
+        <footer className="mt-10 pb-6 text-center text-xs text-gray-500">
+          © {new Date().getFullYear()} Angelo Juanico • Juanico DevSolutions
+        </footer>
       </main>
-
     </div>
   );
 }

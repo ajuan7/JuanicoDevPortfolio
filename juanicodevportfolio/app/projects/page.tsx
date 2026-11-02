@@ -43,7 +43,7 @@ export default function ProjectsPage() {
               src="/project-4/devcogna-cover.png"
               href="/projects/devcogna"
               ctaText="View case study"
-              badgeText="Founder • In progress"
+              badgeText="Prototype (for Vervue) • Paused"
               isPrivate
               tags={["Next.js", "TypeScript", "Supabase", "PostgreSQL"]}
             />
@@ -52,11 +52,11 @@ export default function ProjectsPage() {
           <div className="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-sm backdrop-blur transition hover:bg-white/7.5 hover:border-white/15">
             <ProjectCard
               title="Your Moment Adelaide"
-              description="Full-stack platform for enquiries and booking workflows for a real service business."
+              description="Website for a real Adelaide service business, built as the base for online enquiries and bookings. Project paused requested by client"
               src="/project-3/main.png"
               href="/projects/your-moment-adelaide"
               ctaText="View case study"
-              badgeText="Founder • Full-stack"
+              badgeText="Client project • Base site built"
               isPrivate={false}
               tags={["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Vercel"]}
             />

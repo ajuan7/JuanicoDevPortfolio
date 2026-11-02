@@ -25,6 +25,19 @@ export default function ProjectsPage() {
 
           <div className="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-sm backdrop-blur transition hover:bg-white/7.5 hover:border-white/15">
             <ProjectCard
+              title="Vervue"
+              description="Interview practice app with timed questions and scored AI feedback on every answer."
+              src="/project-5/main.png"
+              href="/projects/vervue"
+              ctaText="View case study"
+              badgeText="Live • Full-stack"
+              isPrivate={false}
+              tags={["Next.js", "TypeScript", "Supabase", "PostgreSQL", "Gemini API"]}
+            />
+          </div>
+
+          <div className="rounded-2xl border border-white/10 bg-white/5 p-4 shadow-sm backdrop-blur transition hover:bg-white/7.5 hover:border-white/15">
+            <ProjectCard
               title="DevCogna"
               description="Interview training platform: track attempts, response time, accuracy, and pattern weaknesses."
               src="/project-4/devcogna-cover.png"
